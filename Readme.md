@@ -12,11 +12,16 @@ Ensure the following packages/versions are installed in your environment:
 ```bash
 step_0/
 ├── modified_arms.py                # Modified demo script for two UR10 robots
-├── modified.webm          # Video recording of environment setup and running problem statement
-├── standard_demo.webm     # Video recording of standard arm.py available in IsaacLab environment
 ├── README.md              # Project description and setup instructions
 ```
 
+**Demo video drive link** 
+This link contains 2 videos
+```bash
+├── modified.webm          # Video recording of environment setup and running problem statement
+├── standard_demo.webm     # Video recording of standard arm.py available in IsaacLab environment
+```
+https://drive.google.com/drive/folders/1s8MGg_V-DxOfpNQoxJJdlL52F9vDUX6V?usp=drive_link
 
 
 ## Environment Setup
