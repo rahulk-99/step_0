@@ -9,7 +9,7 @@ This script demonstrates two UR10 single-arm manipulators.
 .. code-block:: bash
 
     # Usage
-    ./isaaclab.sh -p scripts/demos/arms.py
+    
 
 """
 
