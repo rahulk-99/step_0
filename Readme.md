@@ -11,7 +11,7 @@ Ensure the following packages/versions are installed in your environment:
 **Folder Structure**  
 ```bash
 step_0/
-├── arms.py                # Modified demo script for two UR10 robots
+├── modified_arms.py                # Modified demo script for two UR10 robots
 ├── modified.webm          # Video recording of environment setup and running problem statement
 ├── standard_demo.webm     # Video recording of standard arm.py available in IsaacLab environment
 ├── README.md              # Project description and setup instructions
@@ -35,7 +35,7 @@ step_0/
 
 ## Running the Validation Example
 
-The demo executable is located at `step_0/arms.py` (modified to run two UR10 robots). To run the demo:
+The demo executable is located at `step_0/modified_arms.py` (modified to run two UR10 robots). To run the demo:
 
 1. **Clone the repository**  
    ```bash
@@ -47,7 +47,7 @@ The demo executable is located at `step_0/arms.py` (modified to run two UR10 rob
 2. **Run the modified script**  
    From the repository root, run:
    ```bash
-   local_directory_of_IsaacLab/isaaclab.sh -p arms.py   # Enter the local directory of Isaaclab
+   local_directory_of_IsaacLab/isaaclab.sh -p modified_arms.py   # Enter the local directory of Isaaclab
    ```
 
    The script will initialize the simulation, set up two UR10 manipulators on separate table mounts, and begin the simulation loop. 
