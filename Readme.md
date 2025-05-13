@@ -56,7 +56,8 @@ The demo executable is located at `step_0/modified_arms.py` (modified to run two
 3. **Run the standard script**  
    From the repository root, run:
    ```bash
-   local_directory_of_IsaacLab/isaaclab.sh -p scripts/demos/arms.py  # Enter the local directory of Isaaclab
+   cd /local_directory_of_IsaacLab            # Enter the local directory of Isaaclab
+   ./isaaclab.sh -p scripts/demos/arms.py  
    ```
 
    The script will initialize the simulation, set up two six different standard arms available with Isaaclab environment, and begin the simulation loop. 
